@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVERYDAY HUSTLE</title>
+    <title>Carta Pokémon</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="card" id="card" onclick="flipCard()">
         <div class="card-inner" id="card-inner">
             <div class="card-front">
-                <img src="https://via.placeholder.com/150" alt="Imagem da carta" class="card-image">
+                <div class="problem-label">PROBLEMA</div>
+                <img src="" alt="Imagem da carta" class="card-image" id="card-image">
                 <div class="card-text" id="card-text"></div>
             </div>
             <div class="card-back">
                 <div class="card-back-text"></div>
             </div>
         </div>
+    </div>
+    <div id="options-container" class="options-container">
+        <button id="option1" onclick="showMessage(1)">Opção 1</button>
+        <button id="option2" onclick="showMessage(2)">Opção 2</button>
+        <div id="message" class="message"></div>
     </div>
     <script src="script.js"></script>
 </body>
