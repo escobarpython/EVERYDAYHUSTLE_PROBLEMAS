@@ -1,14 +1,14 @@
 const cards = [
     {
-        text: "Carta 1: Pikachu",
-        image: "https://via.placeholder.com/150x100?text=Pikachu",
+        text: "voce para e o jose faz o skibidi.",
+        image: "https://via.placeholder.com/150x100?text=josenassr",
         options: [
-            "Opção 1: Ataque Elétrico!",
-            "Opção 2: Ataque Rápido!"
+            "Skibidi Nassr",
+            "gordao beats"
         ],
         messages: [
-            "Pikachu usa Ataque Elétrico! É super eficaz!",
-            "Pikachu usa Ataque Rápido! Um movimento veloz!"
+            "jose carlos e clovis. avance 2 casas",
+            "quando o jose gordao beats clovis nassr. volte 1 casa"
         ]
     },
     {
