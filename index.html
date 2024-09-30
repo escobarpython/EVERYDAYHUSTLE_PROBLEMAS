@@ -19,11 +19,20 @@
             </div>
         </div>
     </div>
+    
     <div id="options-container" class="options-container">
         <button id="option1" onclick="showMessage(1)">Opção 1</button>
         <button id="option2" onclick="showMessage(2)">Opção 2</button>
-        <div id="message" class="message"></div>
     </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modal-message"></p>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>
